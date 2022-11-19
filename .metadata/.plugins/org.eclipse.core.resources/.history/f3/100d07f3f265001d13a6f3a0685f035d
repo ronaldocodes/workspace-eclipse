@@ -1,0 +1,27 @@
+package estudo;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class comparativasExpressão {
+	public static void main(String[] args) {
+	
+	Locale.setDefault(Locale.US);
+	Scanner sc = new Scanner(System.in);
+	System.out.println("Digite 3 numero:");
+	double n1 = sc.nextInt();
+	double n2 = sc.nextDouble();
+	double n3 = sc.nextDouble();
+	
+	if(n1 >= n2) {
+		System.out.println("%.2f%n é maior que %.2f%n ", n1,n2 );
+	}
+	
+	
+	
+	
+	
+	sc.close();
+
+}
+}
