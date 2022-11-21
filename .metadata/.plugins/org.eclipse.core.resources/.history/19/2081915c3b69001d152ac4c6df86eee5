@@ -1,0 +1,42 @@
+package estudo;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class switchCase {
+
+	public static void main(String[] args) {
+
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Digite um numero 1 a 5 ");
+		int x = sc.nextInt();
+		String playstation;
+		
+		switch(x) {
+		case 1:
+			playstation = "ganhou um ps1";
+		break;
+		case 2:
+			playstation = "ganhou um  ps2";
+			break;
+		case 3:
+			playstation = " ganhou um ps3";
+			break;
+		case 4:
+			playstation = "ganhou um  ps4";
+			break;
+		case 5:
+			playstation = "ganhou um  ps5";
+			break;
+		default:
+			System.out.println("Numero invalido, digite um valor de 1 a 5");
+		}
+		
+		System.out.printf("Você ganhou %.2f%n",playstation);
+		
+		sc.close();
+	}
+
+}

@@ -1,0 +1,16 @@
+package estudo;
+
+public class ternaria {
+
+	public static void main(String[] args) {
+
+     int a = 4;
+     int b = 5;
+     
+     (a => b) ? System.out.println("não") : System.out.println("Não");
+		
+		
+		
+	}
+
+}
