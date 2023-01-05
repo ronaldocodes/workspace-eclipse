@@ -11,6 +11,7 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="/home/ronaldocodes/Documentos/codebase/workspace-eclipse"/>
 			<item value="/home/ronaldocodes/Documentos/develcodes/workspace-eclipse"/>
 			<item value="C:\Users\ronal\Documents\projetos\workspace-eclipse"/>
 		</list>
